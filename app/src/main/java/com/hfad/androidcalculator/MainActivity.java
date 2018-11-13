@@ -1,6 +1,6 @@
 package com.hfad.androidcalculator;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -8,7 +8,7 @@ import android.widget.Toast;
 import android.content.Intent;
 import java.text.DecimalFormat;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     // Hold the numbers used in the calculations.
     private double firstValue = 0;
